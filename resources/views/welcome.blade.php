@@ -43,11 +43,11 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo"><em>HONDA</em> MANADO</a>
+                        <a href="index.html" class="logo"><em>HONDA</em> Manado</a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="{{url('/')}}" class="active"> Dashboard</a></li>
+                            <li><a href="{{url('/')}}" class="active"> Beranda</a></li>
                             <li><a href="{{url('cars')}}">Mobil</a></li>
                              {{-- @if(Auth::user()->type=='admin')<li><a href="cars.html">Tambah Data</a></li>@endif --}}
                             
@@ -60,7 +60,7 @@
                                                                   <a class="dropdown-item" href="https://www.honda-indonesia.com/aftersales/parts/warranty">Honda Genuine Parts</a>
                                 </div>
                             </li>
-                            <li><a href="https://www.hondamanado.com/contactus">Kontak</a></li>
+                            <li><a href="https://www.hondamanado.com/contactus">Sales</a></li>
                             <li><a href="{{url('login')}}">Login</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
@@ -180,7 +180,7 @@
             <br>
 
             <div class="main-button text-center">
-                <a href="{{url('cars')}}">Lihat Mobil</a>
+                <a href="{{url('cars')}}">Daftar Mobil</a>
             </div>
         </div>
     </section>
